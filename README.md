@@ -1,4 +1,4 @@
-[![NPM](https://img.shields.io/npm/v/alaexplorerjs-api-v7.0.4.svg)](https://www.npmjs.org/package/alaexplorerjs-api-v7.0.4)
+[![NPM](https://img.shields.io/npm/v/ala-api7.svg)](https://www.npmjs.org/package/ala-api7)
 
 # Ala API
 
@@ -8,8 +8,8 @@ read-only API calls.  If you need to sign transactions use
 
 # Include
 
-* Install with: `npm install alaexplorerjs-api-v7.0.4`
-* Html script tag, see [releases](https://github.com/ALADIN-Network/alaexplorerjs-api-v7.0.4/releases) for the correct **version** and its matching script **integrity** hash.
+* Install with: `npm install ala-api7`
+* Html script tag, see [releases](https://github.com/ALADIN-Network/ala-api7/releases) for the correct **version** and its matching script **integrity** hash.
 
 ```html
 <html>
@@ -20,7 +20,7 @@ read-only API calls.  If you need to sign transactions use
   sha512-Cj2FQb94MMtDPgHb1R1577pEMjYhc+P5pNgv1/QwoJD9ntuR9rnWlqJACS/xNniNK5cFS6Y6CpQlHWpzWUeEbw== lib/ala-api.min.js
   sha512-4C6oDKarS8DaXO99o342USbeQwqW98qik+QSzVGfof939gUpIyRDCnbGIGQAIkLNpYZIV4XanmRy3wcis6UW8w== lib/ala-api.min.js.map
   -->
-  <script src="https://cdn.jsdelivr.net/npm/alaexplorerjs-api-v7.0.4@7.0.4/lib/ala-api.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/ala-api7@7.0.4/lib/ala-api.min.js"
     integrity="sha512-LLDsX/GdVZYA82k9TVz3zUxSjvaX8s5b1FJm64W51JGxLFKI2z+ljqYQtsUZIOxh9pSUqvLA5HCoxXqdRxusKw=="
     crossorigin="anonymous"></script>
 
@@ -41,7 +41,7 @@ Run [alanode](https://github.com/ALADIN-Network/ala)
 ## Usage
 
 ```javascript
-AlaApi = require('alaexplorerjs-api-v7.0.4') // Or AlaApi = require('./src')
+AlaApi = require('ala-api7') // Or AlaApi = require('./src')
 
 ala = AlaApi() // // 127.0.0.1:8888
 
@@ -71,7 +71,7 @@ ala.getBlock({block_num_or_id: 1}).then(result => console.log(result))
 ## Configuration
 
 ```js
-AlaApi = require('alaexplorerjs-api-v7.0.4') // Or AlaApi = require('./src')
+AlaApi = require('ala-api7') // Or AlaApi = require('./src')
 
 // everything is optional
 options = {
@@ -106,7 +106,7 @@ options.fetchConfiguration = {
   credentials: 'same-origin'
 }
 ```
-Every alaexplorerjs-api-v7.0.4 request will run [fetch](https://github.com/github/fetch#sending-cookies) with this configuration:
+Every ala-api7 request will run [fetch](https://github.com/github/fetch#sending-cookies) with this configuration:
 ```js
 fetch('https://example.com', {
   credentials: 'same-origin'

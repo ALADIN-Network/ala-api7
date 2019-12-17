@@ -1,5 +1,5 @@
 {
-  "name": "alaexplorerjs-api-v7.0.4",
+  "name": "ala-api7",
   "version": "7.0.4",
   "description": "Application programming interface to ALA blockchain nodes.",
   "main": "lib/index.js",
@@ -26,19 +26,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ALADIN-Network/alaexplorerjs-api-v7.0.4.git"
+    "url": "git+https://github.com/ALADIN-Network/ala-api7.git"
   },
   "keywords": [
-    "ALA",
+    "ALADIN",
     "Blockchain",
     "API"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ALADIN-Network/alaexplorerjs-api-v7.0.4/issues"
+    "url": "https://github.com/ALADIN-Network/ala-api7/issues"
   },
-  "homepage": "https://github.com/ALADIN-Network/alaexplorerjs-api-v7.0.4#readme",
+  "homepage": "https://github.com/ALADIN-Network/ala-api7#readme",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
